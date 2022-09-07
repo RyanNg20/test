@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd test"
+    "start": "cd test && npm start",
+    "heroku-prebuild": "cd test",
+    "heroku-postbuild": "cd test"
   },
   "repository": {
     "type": "git",
