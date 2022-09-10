@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <img src="thlogo.png"/>
+      <img src={require("./thlogo.png")}/>
     </div>
   );
 }
