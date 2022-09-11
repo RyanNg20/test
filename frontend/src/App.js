@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <img src={require("./thlogo.png")}/>
       <Hello/>
+      {process.env.REACT_APP_TEST}
     </div>
   );
 }
